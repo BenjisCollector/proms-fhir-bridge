@@ -1,0 +1,283 @@
+{
+  "resourceType": "Bundle",
+  "id": "c3df728e-a9e4-4d53-b637-92f5935d27de",
+  "type": "transaction-response",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hapi.fhir.org/baseR4"
+    }
+  ],
+  "entry": [
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "Patient/438062/_history/1",
+        "etag": "1",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;Patient/438062/_history/1&quot;. Existing resource matched URL &quot;identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fdemo-id%7CDEMO-0003&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: an existing resource matched the conditional URL so no action was taken."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"Patient/438062/_history/1\". Existing resource matched URL \"identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fdemo-id%7CDEMO-0003\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "QuestionnaireResponse/438063/_history/1",
+        "etag": "1",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;QuestionnaireResponse/438063/_history/1&quot;. Existing resource matched URL &quot;identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CQuestionnaireResponse%2F83904709-afd8-4bda-9588-48b0032de5fc&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: an existing resource matched the conditional URL so no action was taken."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"QuestionnaireResponse/438063/_history/1\". Existing resource matched URL \"identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CQuestionnaireResponse%2F83904709-afd8-4bda-9588-48b0032de5fc\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "Observation/438064/_history/1",
+        "etag": "1",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;Observation/438064/_history/1&quot;. Existing resource matched URL &quot;identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CObservation%2F83904709-afd8-4bda-9588-48b0032de5fc-total&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: an existing resource matched the conditional URL so no action was taken."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"Observation/438064/_history/1\". Existing resource matched URL \"identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CObservation%2F83904709-afd8-4bda-9588-48b0032de5fc-total\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "QuestionnaireResponse/438065/_history/1",
+        "etag": "1",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;QuestionnaireResponse/438065/_history/1&quot;. Existing resource matched URL &quot;identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CQuestionnaireResponse%2Fe0e2004c-1f3c-4c61-9fba-d9b59ef28b81&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: an existing resource matched the conditional URL so no action was taken."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"QuestionnaireResponse/438065/_history/1\". Existing resource matched URL \"identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CQuestionnaireResponse%2Fe0e2004c-1f3c-4c61-9fba-d9b59ef28b81\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "Observation/438066/_history/1",
+        "etag": "1",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;Observation/438066/_history/1&quot;. Existing resource matched URL &quot;identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CObservation%2Fe0e2004c-1f3c-4c61-9fba-d9b59ef28b81-total&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: an existing resource matched the conditional URL so no action was taken."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"Observation/438066/_history/1\". Existing resource matched URL \"identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CObservation%2Fe0e2004c-1f3c-4c61-9fba-d9b59ef28b81-total\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "QuestionnaireResponse/438067/_history/1",
+        "etag": "1",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;QuestionnaireResponse/438067/_history/1&quot;. Existing resource matched URL &quot;identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CQuestionnaireResponse%2Fb5419bc3-53f9-4e9f-b8f8-81f01afb9c8c&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: an existing resource matched the conditional URL so no action was taken."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"QuestionnaireResponse/438067/_history/1\". Existing resource matched URL \"identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CQuestionnaireResponse%2Fb5419bc3-53f9-4e9f-b8f8-81f01afb9c8c\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "Observation/438068/_history/1",
+        "etag": "1",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;Observation/438068/_history/1&quot;. Existing resource matched URL &quot;identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CObservation%2Fb5419bc3-53f9-4e9f-b8f8-81f01afb9c8c-total&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: an existing resource matched the conditional URL so no action was taken."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"Observation/438068/_history/1\". Existing resource matched URL \"identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CObservation%2Fb5419bc3-53f9-4e9f-b8f8-81f01afb9c8c-total\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "QuestionnaireResponse/438069/_history/1",
+        "etag": "1",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;QuestionnaireResponse/438069/_history/1&quot;. Existing resource matched URL &quot;identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CQuestionnaireResponse%2F004a7645-32a6-4f27-9eff-0e8df039b8d1&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: an existing resource matched the conditional URL so no action was taken."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"QuestionnaireResponse/438069/_history/1\". Existing resource matched URL \"identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CQuestionnaireResponse%2F004a7645-32a6-4f27-9eff-0e8df039b8d1\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "Observation/438070/_history/1",
+        "etag": "1",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;Observation/438070/_history/1&quot;. Existing resource matched URL &quot;identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CObservation%2F004a7645-32a6-4f27-9eff-0e8df039b8d1-total&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: an existing resource matched the conditional URL so no action was taken."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"Observation/438070/_history/1\". Existing resource matched URL \"identifier=https%3A%2F%2Fgithub.com%2FBenjisCollector%2Frehab-proms%2Fresource-id%7CObservation%2F004a7645-32a6-4f27-9eff-0e8df039b8d1-total\"."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
